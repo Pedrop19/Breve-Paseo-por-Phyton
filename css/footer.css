@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+ #wrapper {
+    min-height: 20%;
+    position: relative;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .sheet {
+    background: black;
+    opacity: 0.65;
+    padding: 0.5%;
+    border-radius: 10px;
+    margin-top: 10%;
+  }
+  
+  .quote { 
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+  }
+  
+  blockquote p::first-letter {
+    font-size: 200%;
+    color: #66222f;
+  }
+  
+  blockquote footer {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Oxygen';
+    text-align: right;
+    padding-right: 10%;
+  }
+  
+  blockquote {
+    border: 0;
+  }

@@ -1,0 +1,129 @@
+.duda-box {
+    position: inherit;
+    width: 800px;
+    padding: 40px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin-left: 25%;
+  }
+  
+  .duda-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .duda-box .user-box {
+    position: relative;
+  }
+  
+  .duda-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .duda-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .duda-box .user-box input:focus ~ label,
+  .duda-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 20px;
+  }
+  
+  .duda-box form #submit {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 26px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: transparent;
+  }
+  
+  .duda-box #submit:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+
+  @media screen and (max-width : 1920px){
+    .duda-box {
+        position: inherit;
+        width: 800px;
+        padding: 40px;
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+        margin-left: 30%;
+      }
+    }
+
+  @media screen and (max-width : 1300px){
+    .duda-box {
+        position: inherit;
+        width: 800px;
+        padding: 40px;
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+        margin-left: 15%;
+      }
+    }
+
+    @media screen and (max-width : 1000px){
+        .duda-box {
+            position: inherit;
+            width: 500px;
+            padding: 40px;
+            background: rgba(0,0,0,.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+            border-radius: 10px;
+            margin-left: 25%;
+          }
+        }
+
+        
+    @media screen and (max-width : 700px){
+        .duda-box {
+            position: inherit;
+            width: 300px;
+           
+            background: rgba(0,0,0,.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+            border-radius: 10px;
+            margin-left: 5%;
+          }
+        }
